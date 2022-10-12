@@ -3,9 +3,11 @@ const partyButton = document.querySelector(".button");
 const hide = () => {
     partyButton.style.display = 'none'
 }
+
 const showButton = () => {
     partyButton.style.display = 'inline'
 }
+
 partyButton.addEventListener("click", function (e) {
     party.confetti(this, {
         count: party.variation.range(60, 90),
@@ -26,7 +28,7 @@ particlesJS("particles-js", {
             "image": {"src": "", "width": 100, "height": 100}
         },
         "opacity": {
-            "value": 0.5,
+            "value": 0.8,
             "random": true,
             "anim": {"enable": false, "speed": 1, "opacity_min": 0.1, "sync": false}
         },
