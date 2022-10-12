@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS WITH BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Suma de los valores</title>
+</head>
+<body >
+<main id="particles-js" ></main>
+<main class="container">
+        <h1>Suma de los valores </h1>
+        <form class="form-control form" action="formulario-radio.php" method="GET">
+            <label>
+                Selecciona el resultado correcto de sumar 3 y 4:
+            </label>
+            <div class="form-check">
+                <label class="form-check-label" for="primaryCheck">6</label>
+                <input class="form-check-input" type="radio" name="result" id="primaryCheck" value="6"/>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="secondaryCheck">7</label>
+                <input class="form-check-input" type="radio" name="result" id="secondaryCheck" value="7"/>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="thirdlyCheck">9</label>
+                <input class="form-check-input" type="radio" name="result" id="thirdlyCheck" value="9"/>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="fourthlyCheck">12</label>
+                <input class="form-check-input" type="radio" name="result" id="fourthlyCheck" value="12"/>
+            </div>
+            <input type="reset" class="button btn btn-warning" value="Limpiar">
+            <input type="submit" class="button btn btn-outline-success" value="Enviar">
+        </form>
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
